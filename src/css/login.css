@@ -1,0 +1,123 @@
+html{
+    overflow-x: hidden;
+    background-color: unset;
+    font-family: Arial,sans-serif;
+    width: 100%;
+ }
+ .header-panel .left .topic{
+    color: #5b564c;
+  }
+  .header-panel .right{
+    color: #5b564c;
+  }
+  .header-panel .right a{
+    color: #5b564c;
+  }
+  .nav-panel a{
+    color: #5b564c;
+   }
+   .rainbow{
+    animation: 50s cubic-bezier(.645,.045,.355,1) -4.5s infinite rainbow;
+    padding: 40px 0;
+   }
+   .login-panel{
+    width:450px;
+    background-color: #fff;
+    min-height: 500px;
+    margin-left: calc((100% - 450px) / 2);
+    border: 1px solid #afb9c1;
+    border-radius: 2px;
+    text-align: center;
+   }
+   @keyframes rainbow{
+    0%, 3% {
+      background-color: #5b564c;
+    }
+
+    15%, 9% {
+        background-color: #3e4b59;
+    }
+    21%, 28% {
+        background-color: #683043;
+    }
+    34%, 40% {
+    background-color: #9fa617;
+    }
+    46%, 53% {
+    background-color: #e3b430;
+    }
+    59%, 65% {
+    background-color: #e37f1c;
+    }
+    72%, 79% {
+    background-color: #97341b;
+    }
+    85%, 91% {
+    background-color: #457389;
+    }
+    100%, 97% {
+    background-color: #5b564c;
+    }
+}
+h1{
+     font-family: Aleo,Georgia,serif;
+     color: #3e4b59;
+}
+.title{
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+.title a{
+    color: #32404e;
+    text-decoration: underline;
+}
+.title a:hover{
+    color: #f08b1d; 
+}
+.form-panel{
+    text-align: left;
+    margin: 10px 30px;
+}
+.form-panel dev{ 
+   width:95%;
+}
+label{
+    display: block;
+    color: #7d848a;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+input{
+    background-color: #ebeeee;
+    color: #3e4b59;
+    border: 1px solid #afb9c1;
+    width: 97%;
+    line-height: 40px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.btn{
+    opacity: 0.9;
+    text-align: center;
+    background: #acb319;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.pwd a{
+    color: #457389;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.pwd a:hover{
+    color: #f08b1d; 
+    text-decoration: underline;
+}
